@@ -1,0 +1,18 @@
+{
+  "t": "afterShipmentProcess",
+  "shipment": {
+    "id": "6143d2f33fddd52f6528de18",
+    "transaction_type": { "type": "MANUAL" },
+    "status": "processed",
+    "piece_count": 1,
+    "created_timestamp": "2021-09-16T23:27:47Z",
+    "shipping_date": "2021-09-16",
+    "costcenter": ["1000", "5010", "6010", "7010", "8010"],
+    "charges": { "currency": "USD", "total_charge": 1, "base_charge": 1 },
+    "handlingcharge": 1,
+    "docs": [],
+    "owner": "j.wilkovich2@neopost.com",
+    "description": "1"
+  },
+  "uid": "j.wilkovich2@neopost.com"
+}
