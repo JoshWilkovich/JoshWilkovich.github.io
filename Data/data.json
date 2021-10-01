@@ -1,18 +1,373 @@
 {
-  "t": "afterShipmentProcess",
-  "shipment": {
-    "id": "6143d2f33fddd52f6528de18",
-    "transaction_type": { "type": "MANUAL" },
-    "status": "processed",
-    "piece_count": 1,
-    "created_timestamp": "2021-09-16T23:27:47Z",
-    "shipping_date": "2021-09-16",
-    "costcenter": ["1000", "5010", "6010", "7010", "8010"],
-    "charges": { "currency": "USD", "total_charge": 1, "base_charge": 1 },
-    "handlingcharge": 1,
-    "docs": [],
-    "owner": "j.wilkovich2@neopost.com",
-    "description": "1"
-  },
-  "uid": "j.wilkovich2@neopost.com"
+	"CurrentPage":2147483647,
+	"PageSize":2147483647,
+	"TotalCount":2147483647,
+	"TotalPages":2147483647,
+	"ResultSet":[{
+		"BillAddress":{
+			"Address1":"String content",
+			"Address2":"String content",
+			"City":"String content",
+			"Country":"String content",
+			"Phone":"String content",
+			"State":"String content",
+			"Zip":"String content",
+			"FirstName":"String content",
+			"LastName":"String content"
+		},
+		"Comments":[{
+			"Comment":"String content",
+			"DateEntered":"\/Date(928149600000+0000)\/",
+			"EnteredBy":"String content",
+			"IsInternalOnly":true
+		}],
+		"DateEntered":"\/Date(928149600000+0000)\/",
+		"DateModified":"\/Date(928149600000+0000)\/",
+		"Id":2147483647,
+		"MemberId":"String content",
+		"OrderItems":[{
+			"CourseInfo":{
+				"Course":"String content",
+				"Dept":"String content",
+				"RegistrationNumber":"String content",
+				"Section":"String content",
+				"Term":"String content"
+			},
+			"ItemPrice":12678967.543233,
+			"ItemTax":12678967.543233,
+			"ItemTotal":12678967.543233,
+			"ListPrice":12678967.543233,
+			"PackingComment":"String content",
+			"PlacedPrice":12678967.543233,
+			"Product":{
+				"Attributes":["String content"],
+				"BackofficeProductId":"String content",
+				"Isbn":"String content",
+				"Name":"String content",
+				"PfId":"String content",
+				"Sku":"String content",
+				"Type":0
+			},
+			"Quantity":2147483647,
+			"RequestedCondition":"String content",
+			"ShippingTax":12678967.543233,
+			"SortOrder":2147483647,
+			"Status":"String content",
+			"TaxTotal":12678967.543233,
+			"DueDate":"\/Date(928149600000+0000)\/",
+			"RentalAgreement":"String content"
+		}],
+		"OrderStatus":"String content",
+		"OrderTotal":12678967.543233,
+		"OrderType":0,
+		"OriginalOrder":{
+			"BillAddress":{
+				"Address1":"String content",
+				"Address2":"String content",
+				"City":"String content",
+				"Country":"String content",
+				"Phone":"String content",
+				"State":"String content",
+				"Zip":"String content",
+				"FirstName":"String content",
+				"LastName":"String content"
+			},
+			"Comments":[{
+				"Comment":"String content",
+				"DateEntered":"\/Date(928149600000+0000)\/",
+				"EnteredBy":"String content",
+				"IsInternalOnly":true
+			}],
+			"DateEntered":"\/Date(928149600000+0000)\/",
+			"DateModified":"\/Date(928149600000+0000)\/",
+			"Id":2147483647,
+			"MemberId":"String content",
+			"OrderItems":[{
+				"CourseInfo":{
+					"Course":"String content",
+					"Dept":"String content",
+					"RegistrationNumber":"String content",
+					"Section":"String content",
+					"Term":"String content"
+				},
+				"ItemPrice":12678967.543233,
+				"ItemTax":12678967.543233,
+				"ItemTotal":12678967.543233,
+				"ListPrice":12678967.543233,
+				"PackingComment":"String content",
+				"PlacedPrice":12678967.543233,
+				"Product":{
+					"Attributes":["String content"],
+					"BackofficeProductId":"String content",
+					"Isbn":"String content",
+					"Name":"String content",
+					"PfId":"String content",
+					"Sku":"String content",
+					"Type":0
+				},
+				"Quantity":2147483647,
+				"RequestedCondition":"String content",
+				"ShippingTax":12678967.543233,
+				"SortOrder":2147483647,
+				"Status":"String content",
+				"TaxTotal":12678967.543233,
+				"DueDate":"\/Date(928149600000+0000)\/",
+				"RentalAgreement":"String content"
+			}],
+			"OrderStatus":"String content",
+			"OrderTotal":12678967.543233,
+			"OrderType":0,
+			"OriginalOrder":{
+				"BillAddress":{
+					"Address1":"String content",
+					"Address2":"String content",
+					"City":"String content",
+					"Country":"String content",
+					"Phone":"String content",
+					"State":"String content",
+					"Zip":"String content",
+					"FirstName":"String content",
+					"LastName":"String content"
+				},
+				"Comments":[{
+					"Comment":"String content",
+					"DateEntered":"\/Date(928149600000+0000)\/",
+					"EnteredBy":"String content",
+					"IsInternalOnly":true
+				}],
+				"DateEntered":"\/Date(928149600000+0000)\/",
+				"DateModified":"\/Date(928149600000+0000)\/",
+				"Id":2147483647,
+				"MemberId":"String content",
+				"OrderItems":[{
+					"CourseInfo":{
+						"Course":"String content",
+						"Dept":"String content",
+						"RegistrationNumber":"String content",
+						"Section":"String content",
+						"Term":"String content"
+					},
+					"ItemPrice":12678967.543233,
+					"ItemTax":12678967.543233,
+					"ItemTotal":12678967.543233,
+					"ListPrice":12678967.543233,
+					"PackingComment":"String content",
+					"PlacedPrice":12678967.543233,
+					"Product":{
+						"Attributes":["String content"],
+						"BackofficeProductId":"String content",
+						"Isbn":"String content",
+						"Name":"String content",
+						"PfId":"String content",
+						"Sku":"String content",
+						"Type":0
+					},
+					"Quantity":2147483647,
+					"RequestedCondition":"String content",
+					"ShippingTax":12678967.543233,
+					"SortOrder":2147483647,
+					"Status":"String content",
+					"TaxTotal":12678967.543233,
+					"DueDate":"\/Date(928149600000+0000)\/",
+					"RentalAgreement":"String content"
+				}],
+				"OrderStatus":"String content",
+				"OrderTotal":12678967.543233,
+				"OrderType":0,
+				"OriginalOrder":null,
+				"PaymentMethods":[{
+					"AccountInformation":"String content",
+					"Amount":12678967.543233,
+					"IsCreditCard":true,
+					"Name":"String content"
+				}],
+				"ReferringUrl":"String content",
+				"ShipAddress":{
+					"Address1":"String content",
+					"Address2":"String content",
+					"City":"String content",
+					"Country":"String content",
+					"Phone":"String content",
+					"State":"String content",
+					"Zip":"String content",
+					"FirstName":"String content",
+					"LastName":"String content"
+				},
+				"ShipToEmail":"String content",
+				"ShippingCode":{
+					"BackofficeId":"String content",
+					"Id":2147483647,
+					"Name":"String content"
+				},
+				"ShippingInstructions":"String content",
+				"ShippingTotal":12678967.543233,
+				"Shopper":{
+					"AllowBuybackMail":true,
+					"AllowDirectMail":true,
+					"BillingAddress":{
+						"Address1":"String content",
+						"Address2":"String content",
+						"City":"String content",
+						"Country":"String content",
+						"Phone":"String content",
+						"State":"String content",
+						"Zip":"String content",
+						"FirstName":"String content",
+						"LastName":"String content"
+					},
+					"DateCreated":"\/Date(928149600000+0000)\/",
+					"Email":"String content",
+					"Id":"String content",
+					"IsDisabled":true,
+					"IsTaxExempt":true,
+					"MembershipId":"String content",
+					"ShippingAddress":{
+						"Address1":"String content",
+						"Address2":"String content",
+						"City":"String content",
+						"Country":"String content",
+						"Phone":"String content",
+						"State":"String content",
+						"Zip":"String content",
+						"FirstName":"String content",
+						"LastName":"String content"
+					},
+					"ShopperNumber":2147483647,
+					"StudentId":"String content"
+				},
+				"StudentId":"String content",
+				"SubTotal":12678967.543233,
+				"TaxTotal":12678967.543233,
+				"UniqueIdentifier":"String content"
+			},
+			"PaymentMethods":[{
+				"AccountInformation":"String content",
+				"Amount":12678967.543233,
+				"IsCreditCard":true,
+				"Name":"String content"
+			}],
+			"ReferringUrl":"String content",
+			"ShipAddress":{
+				"Address1":"String content",
+				"Address2":"String content",
+				"City":"String content",
+				"Country":"String content",
+				"Phone":"String content",
+				"State":"String content",
+				"Zip":"String content",
+				"FirstName":"String content",
+				"LastName":"String content"
+			},
+			"ShipToEmail":"String content",
+			"ShippingCode":{
+				"BackofficeId":"String content",
+				"Id":2147483647,
+				"Name":"String content"
+			},
+			"ShippingInstructions":"String content",
+			"ShippingTotal":12678967.543233,
+			"Shopper":{
+				"AllowBuybackMail":true,
+				"AllowDirectMail":true,
+				"BillingAddress":{
+					"Address1":"String content",
+					"Address2":"String content",
+					"City":"String content",
+					"Country":"String content",
+					"Phone":"String content",
+					"State":"String content",
+					"Zip":"String content",
+					"FirstName":"String content",
+					"LastName":"String content"
+				},
+				"DateCreated":"\/Date(928149600000+0000)\/",
+				"Email":"String content",
+				"Id":"String content",
+				"IsDisabled":true,
+				"IsTaxExempt":true,
+				"MembershipId":"String content",
+				"ShippingAddress":{
+					"Address1":"String content",
+					"Address2":"String content",
+					"City":"String content",
+					"Country":"String content",
+					"Phone":"String content",
+					"State":"String content",
+					"Zip":"String content",
+					"FirstName":"String content",
+					"LastName":"String content"
+				},
+				"ShopperNumber":2147483647,
+				"StudentId":"String content"
+			},
+			"StudentId":"String content",
+			"SubTotal":12678967.543233,
+			"TaxTotal":12678967.543233,
+			"UniqueIdentifier":"String content"
+		},
+		"PaymentMethods":[{
+			"AccountInformation":"String content",
+			"Amount":12678967.543233,
+			"IsCreditCard":true,
+			"Name":"String content"
+		}],
+		"ReferringUrl":"String content",
+		"ShipAddress":{
+			"Address1":"String content",
+			"Address2":"String content",
+			"City":"String content",
+			"Country":"String content",
+			"Phone":"String content",
+			"State":"String content",
+			"Zip":"String content",
+			"FirstName":"String content",
+			"LastName":"String content"
+		},
+		"ShipToEmail":"String content",
+		"ShippingCode":{
+			"BackofficeId":"String content",
+			"Id":2147483647,
+			"Name":"String content"
+		},
+		"ShippingInstructions":"String content",
+		"ShippingTotal":12678967.543233,
+		"Shopper":{
+			"AllowBuybackMail":true,
+			"AllowDirectMail":true,
+			"BillingAddress":{
+				"Address1":"String content",
+				"Address2":"String content",
+				"City":"String content",
+				"Country":"String content",
+				"Phone":"String content",
+				"State":"String content",
+				"Zip":"String content",
+				"FirstName":"String content",
+				"LastName":"String content"
+			},
+			"DateCreated":"\/Date(928149600000+0000)\/",
+			"Email":"String content",
+			"Id":"String content",
+			"IsDisabled":true,
+			"IsTaxExempt":true,
+			"MembershipId":"String content",
+			"ShippingAddress":{
+				"Address1":"String content",
+				"Address2":"String content",
+				"City":"String content",
+				"Country":"String content",
+				"Phone":"String content",
+				"State":"String content",
+				"Zip":"String content",
+				"FirstName":"String content",
+				"LastName":"String content"
+			},
+			"ShopperNumber":2147483647,
+			"StudentId":"String content"
+		},
+		"StudentId":"String content",
+		"SubTotal":12678967.543233,
+		"TaxTotal":12678967.543233,
+		"UniqueIdentifier":"String content"
+	}]
 }
